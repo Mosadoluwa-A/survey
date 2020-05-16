@@ -1,0 +1,120 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body {
+  background-color: #00bbFF;
+}
+#title {
+  margin: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0px 1px 2px #000;
+}
+
+#survey-form {
+  margin: auto;
+  height: 850px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #000;
+}
+
+#description{
+  display: flex;
+  padding-top: 35px;
+  justify-content: center;
+  align-content: end;
+  font-size: 17px;
+  font-family: Raleway;
+  margin-bottom: 25px;
+  
+}
+
+.label {
+  display: flex;
+  justify-content:space-between;
+  width: 350px;
+  margin-left:400px;
+}
+
+.no-label {
+  display: flex;
+  justify-content:space-between;
+  width: 350px;
+  margin-left:400px;
+}
+
+
+
+select {
+  width: 200px;
+  height: 30px;
+}
+
+#description {
+  display: flex;
+  justify-content:space-between;
+  width: 500px;
+  margin-left:200px;
+} 
+  
+  
+.radiobutton {
+  margin-right: 8px;
+}
+
+.radio {
+  position: relative;
+  margin-left: 5px;
+  left: -35px;
+  top: 15px; 
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 400px;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.input-style {
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 35px;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px #000;
+}
+
+.input-field:focus{
+	box-shadow: 1px 1px 2px #000;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 3px;
+  width: 250px;
+}
+
+.dropdown-:focus{
+	box-shadow: 1px 1px 2px #000;
+}
+
+#submit {
+  margin-left: 460px;
+}

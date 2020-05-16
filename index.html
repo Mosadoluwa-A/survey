@@ -1,0 +1,133 @@
+
+<html>
+
+<header>
+
+  <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  <h1 id="title">Topaz Dental Clinic Survey Form</h1>
+</header>
+
+<body>
+  <form id="survey-form">
+    <p id="description">Your opinion is of utmost importance, help us treat you better</p> 
+   
+    <div class="rowTab">
+    <div class="labels">
+    <label for="name" id="name-label"> *Name:</label>  
+    </div>   
+      <div class="input-style">
+      <input  id="name" type="text" placeholder="Enter your name" class="input-field" required>
+   </div>
+    </div>
+      
+    <div class="rowTab">
+      <div class="labels">
+      <label for="email" id="email-label"> *Email:</label>
+      </div>  
+    
+     <div class="input-style">
+      <input id="email" type="email" placeholder="Enter your Email" class="input-field" >
+     </div>
+    </div>  
+    
+    <div class="rowTab">
+    <div class="labels">
+    <label for="number" id="number-label"> *Phone no:</label>
+      </div>
+      <div class="input-style">
+      <input id="number" type="number" placeholder="Your phone number" class="input-field" required>
+        </div>
+    </div>
+   
+  
+    <div class="rowTab">
+      <div class="labels">
+    <span>What would you say describes you most?</span>
+      </div>
+    
+     <div class="input-style">  
+      <select class="dropdown" name="description"> 
+      <option value="Student">Student</option>
+      <option value="Worker">Worker</option>
+      <option value="Retiree">Retiree</option>
+      </select>
+     </div>
+    </div>
+  
+   
+    <div class="rowTab">
+      <div class="labels">
+      <label for="ptxt"> *How often do you visit us?</label>
+   </div>
+   
+    <div class="input-style"> 
+    <ul id="ptxt" style="list-style: none;" required>
+      <li class="radio"><label for="frequency"><input name="radio-buttons" id="frequency" type="radio" class="radiobutton" value="1"> Twice a Year </label></li>
+      
+      <li class="radio"><label for="frequency 2"><input name="radio-buttons" id="frequency 2" type="radio" class="radiobutton" value="2"> Once a Year </label></li>
+    
+    <li class="radio"><label for="frequency 3"><input name="radio-buttons" id="frequency 3" type="radio" class="radiobutton" value="3"> When I have problems </label></li>
+    
+    <li class="radio"><label for="frequency 4"><input name="radio-buttons" id="frequency 4" type="radio" class="radiobutton" value="4"> This is my first time </label></li>
+    </ul>
+    </div> 
+    </div>
+    
+    <div class="rowTab">
+      <div class="labels">
+    <span>What do you like most about the clinic?</span>
+      </div>
+    
+     <div class="input-style">  
+      <select class="dropdown" name="description"> 
+      <option value="placeholder">Select an option</option>
+        <option value="location">The location</option>
+      <option value="facilities">Facilities</option>
+      <option value="S&D">Structure and Design</option>
+      </select>
+     </div>
+    </div>
+    
+     <div class="rowTab">
+      <div class="labels">
+      <label for="services"> *Which of our services have you experienced?</label>
+   </div>
+   
+    <div class="input-style"> 
+    <ul id="services" style="list-style: none;" required>
+      <li class="radio"><label for="service"><input id="service" type="checkbox" class="radiobutton" value="1"> Dental Checkup </label></li>
+      
+      <li class="radio"><label for="service 2"><input id="service 2" type="checkbox" class="radiobutton" value="2"> Dental Extraction </label></li>
+    
+    <li class="radio"><label for="service 3"><input  id="service 3" type="checkbox" class="radiobutton" value="3"> Scaling and Polishing </label></li>
+    
+    <li class="radio"><label for="service 4"><input id="service 4" type="checkbox" class="radiobutton" value="4"> Dental Prosthesis </label></li>
+    
+      <li class="radio"><label for="service 5"><input id="service 5" type="checkbox" class="radiobutton" value="5"> Dental Fillings </label></li>
+      
+      </ul>
+    </div> 
+    </div>
+    
+     <div class="rowTab">
+    <div class="labels">
+    <label for="comments" id="comments-label"> Please share your thoughts and comments with us </label>  
+    </div>   
+      <div class="input-style">
+      <textarea  id="comments" placeholder="Please enter your comments here..." class="input-field" style="height:90px;" name="comments"></textarea>
+   </div>
+    </div>
+  
+    <button id="submit" class="btn  btn-primary btn-md" type="submit" onclick="sayThanks()"> Submit</button>
+    <script>
+    	function sayThanks(){
+    		alert("Thanks for your time")
+    	}
+    </script>
+    
+  </form>
+  <br>
+</body>
+
+</html>
